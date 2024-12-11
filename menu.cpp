@@ -56,6 +56,7 @@ int main() {
                 for (int i = 0; i < n; i++) {
                     cout << data[i] << " ";
                 }
+                cout << "\nTekan tombol apa saja untuk kembali...";
                 getch();
                 break;
             case '3':
@@ -68,7 +69,11 @@ int main() {
                         }
                     }
                 }
-                cout << "Data telah diurutkan secara ASC.\n";
+                cout << "Data telah diurutkan secara ASC:\n";
+                for (int i = 0; i < n; i++) {
+                    cout << data[i] << " ";
+                }
+                cout << "\nTekan tombol apa saja untuk kembali...";
                 getch();
                 break;
             case '4':
@@ -81,14 +86,18 @@ int main() {
                         }
                     }
                 }
-                cout << "Data telah diurutkan secara DSC.\n";
+                cout << "Data telah diurutkan secara DSC:\n";
+                for (int i = 0; i < n; i++) {
+                    cout << data[i] << " ";
+                }
+                cout << "\nTekan tombol apa saja untuk kembali...";
                 getch();
                 break;
             case '5':
                 break;
             default:
                 system("cls");
-                cout << "Pilihan Tidak Tersedia";
+                cout << "Pilihan Tidak Tersedia\nTekan tombol apa saja untuk melanjutkan...";
                 getch();
                 break;
         }
