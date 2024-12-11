@@ -47,6 +47,8 @@ int main() {
                     cout << "Masukkan elemen ke-" << i + 1 << ": ";
                     cin >> data[i];
                 }
+                cout << "Data berhasil dimasukkan.\n";
+                getch();
                 break;
             case '2':
                 system("cls");
